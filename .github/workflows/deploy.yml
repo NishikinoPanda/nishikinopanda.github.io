@@ -22,11 +22,11 @@ jobs:
 
       - name: Deploy
         env:
-          # 使用剛才設定的 Secret
-          GH_TOKEN: ${{ secrets.HEXO_DEPLOY_PRI }}
+          GH_TOKEN: ${{ secrets.HEXO_DEPLOY_PRI }} # 確認名稱與 Secret 一致
         run: |
-          git config --global user.name "你的 GitHub 帳號"
+          git config --global user.name "你的名字"
           git config --global user.email "你的 Email"
+          # 這行會把 Token 置換進 URL 中進行驗證
           sed -i "s|https://github.com/|https://${GH_TOKEN}@github.com/|g" _config.yml
           npx hexo clean
           npx hexo deploy
