@@ -24,8 +24,8 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.HEXO_DEPLOY_PRI }} # 確認名稱與 Secret 一致
         run: |
-          git config --global user.name "你的名字"
-          git config --global user.email "你的 Email"
+          git config --global user.name "NishikinoPanda"
+          git config --global user.email "panda.makioshi@gmail.com"
           # 這行會把 Token 置換進 URL 中進行驗證
           sed -i "s|https://github.com/|https://${GH_TOKEN}@github.com/|g" _config.yml
           npx hexo clean
