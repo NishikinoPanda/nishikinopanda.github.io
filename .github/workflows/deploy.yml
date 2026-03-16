@@ -1,0 +1,32 @@
+name: Hexo Deploy
+
+on:
+  push:
+    branches:
+      - main # 當 main 分支有變動時觸發
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Deploy
+        env:
+          # 使用剛才設定的 Secret
+          GH_TOKEN: ${{ secrets.HEXO_DEPLOY_PRI }}
+        run: |
+          git config --global user.name "你的 GitHub 帳號"
+          git config --global user.email "你的 Email"
+          sed -i "s|https://github.com/|https://${GH_TOKEN}@github.com/|g" _config.yml
+          npx hexo clean
+          npx hexo deploy
