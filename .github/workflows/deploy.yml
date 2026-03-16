@@ -3,7 +3,7 @@ name: Hexo Deploy
 on:
   push:
     branches:
-      - main # 當 main 分支有變動時觸發
+      - src
 
 jobs:
   build:
