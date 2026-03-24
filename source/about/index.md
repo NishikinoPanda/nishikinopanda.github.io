@@ -110,10 +110,4 @@ aside: false
 * **常看**: LNG、學大、Speedrun (Qttsix, Distortion)
 * **偶爾看**: MOTHER3rd、ヘンディー、其他日本實況主。
 
----
-
-## 🔗 社群連結
-* [音G專用帳 @Nishikino Panda](Facebook網址)
-* [日常廢文 @Nakiri Panda](Facebook網址)
-
 </div>
