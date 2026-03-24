@@ -89,6 +89,7 @@ aside: false
 ### **其他音G街機**
 * **太鼓達人**: ニジイロ 2025 銀枠銀九段 / 休閒玩家
 * **SDVX**: NABLAS (V 16.60) / 偶爾廚歌或開船
+* **beatmania** **IIDX**: Sparkle Shower 初段 / LEVEL 7 ~ 8 努力中
 * **CHUNITHM**: 紅譜玩家
 
 ---
