@@ -9,15 +9,19 @@ aside: false
 
 <div style="display: flex; flex-direction: column; gap: 15px; max-width: 450px; margin: 20px auto 40px auto; padding: 0 10px;">
 
-  <a href="你的Facebook主頁網址" target="_blank" class="lit-link-btn" style="background-color: #1877F2;">
-    <i class="fab fa-facebook" style="margin-right: 10px;"></i> Facebook
+  <a href="https://www.facebook.com/NishikinoPanda" target="_blank" class="lit-link-btn" style="background-color: #1877F2;">
+    <i class="fab fa-facebook" style="margin-right: 10px;"></i> Nishikino Panda (音G帳)
   </a>
 
-  <a href="你的X主頁網址" target="_blank" class="lit-link-btn" style="background-color: #000000;">
+  <a href="https://www.facebook.com/nakiri.panda/" target="_blank" class="lit-link-btn" style="background-color: #1877F2;">
+    <i class="fab fa-facebook" style="margin-right: 10px;"></i> Nakiri Panda (廢文帳)
+  </a>
+
+  <a href="https://x.com/Nishikino_Panda" target="_blank" class="lit-link-btn" style="background-color: #000000;">
     <i class="fab fa-x-twitter" style="margin-right: 10px;"></i> X (Twitter)
   </a>
 
-  <a href="你的YouTube頻道網址" target="_blank" class="lit-link-btn" style="background-color: #FF0000;">
+  <a href="https://www.youtube.com/@nak1ripanda" target="_blank" class="lit-link-btn" style="background-color: #FF0000;">
     <i class="fab fa-youtube" style="margin-right: 10px;"></i> YouTube
   </a>
 
